@@ -6,6 +6,7 @@
 .container{
     width: 80%;
     margin-left: 10%;
+    height: auto;
 }
 .sub-header{
     height: 6vh;
@@ -186,5 +187,342 @@ input {
 }
 .item .price{
     color: #f49caa;
+    font-weight: bold;
+}
+.price span{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 10px;
+}
+.heading{
+    margin-top: 50px;
+}
+.deal{
+    
+    margin-left: 26%;
+    margin-top: 600px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.shampoo{
+    height: 100%;
+    width: 74.5%;
+    margin-left: 25.5%;
+    /* background-color: #f49caa; */
+    border: 2px solid gray;
+    border-radius: 8px;
+    display: flex;
+}
+.rating i{
+    color: gold;
+    margin-top: 70px;
+}
+.content h3{
+    margin-top: 10px;
+}
+.content p{
+    color: gray;
+}
+.content button{
+    background-color: #f49caa;
+    padding: 7px 12px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    margin-top: 17px;
+}
+.time{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.time .days{
+    /* border: 1px solid gray; */
+    height: 50px;
+    width: 50px;
+    /* color: #f49caa; */
+    background-color: lightgray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shampoo .pic{
+    height: 100%;
+    width: 50%;
+}
+.shampoo .content{
+    width: 50%;
+}
+.item-box-new{
+    /* background-color: #f49caa; */
+    width:74.5% ;
+    margin-left: 25.5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    height: auto;
+    
+}
+.container .new{
+    margin-left: 25.5%;
+    margin-top: 40px;
+    border-bottom: 1px solid gray;
+}
+.item-box-new .item{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 50px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+
+}
+.item-box-new img{
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+.item-box-new .type{
+    margin-left: 20px;
+}
+.item-box-new .item-name{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 20px;
+    margin-left: 20px;
+    color: gray;
+}
+.item-box-new .rating{
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.item-box-new  .price{
+    margin-left: 20px;
+    color: black;
+    color: gray;
+}
+.testinomial{
+    width: 80%;
+    /* background-color: antiquewhite; */
+    margin-left: 10%;
+    display: flex;
+    margin-top: 60px;
+}
+.testinomial .alan{
+    width: 30%;
+    margin-top: 130px;
+}
+.testinomial .content{
+    height: 50vh;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.testinomial .content img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.testinomial .name{
+    color: gray;
+    font-weight: bold;
+    margin-top:20px ;
+}
+.content svg{
+    height: 25px;
+    width: 25px;
+    margin-top: 20px;
+}
+.content .ceo{
+    color: gray;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.content .text{
+    margin-bottom: 40px;
+}
+.banner2{
+    background-image: url('images/cta-banner.jpg');
+    width: 40%;
+    height: 59vh;
+    background-repeat:no-repeat ;
+    background-size: 100% 100%;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-left: 50px;
+    /* background-color: black; */
+}
+.content2{
+    width: 30%;
+    height: 51vh;
+    margin-top: 170px;
+    margin-left: 50px;
+    border: 1px solid gray;
+    /* background-color: aquamarine; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.content2 .head{
+    margin-top: 20px;
+    font-weight: bold;
+    color: gray;
+    margin-left: 20%;
+
+}
+.content2 .des{
+    margin-top: 10px;
+    color: gray;
+    margin-left: 20%;
+}
+.banner2 .coll{
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    opacity: 0.7;
+    margin-left: 30%;
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+   
+}
+.coll .discount{
+    /* margin-left: 20%; */
+    background-color: black;
+    display: inline;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+
+}
+.coll .sub-text{
+    align-items: center;
+    margin-left: 25%;
+    display: inline;
+    padding: 5px;
+    color:gray;
+    font-weight: bolder;
+    position: relative;
+    top: 30px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.coll .starting{
+    position: relative;
+    /* margin-left: 20%; */
+    top: 40px;
+    font-weight: bold;
+}
+.coll .shop{
+    position: relative;
+    color: gray;
+    font-weight: bold;
+    top: 50px;
+    /* margin-left: 25%; */
+}
+.alan .heading{
+    margin-left: 10px;
+}
+.heading1{
+    width: 20%;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    color: gray;
+    /* margin-right: 0px; */
+    float: right;
+}
+.last-box{
+    display: flex;
+    width: 73%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.last-box .item{
+    width:25%;
+    margin-left: 30px;
+}
+.last-box img{
+    height: 150px;
+    width: 300px;
+    border-radius: 8px;
+}
+.last-box .type{
+    color: #f49caa;
+    margin-top: 10px;
+}
+.last-box .name{
+    margin-top: 10px;
+}
+.last-box .date{
+    margin-top: 10px;
+}
+
+.footer1{
+    height: 35vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.footer1 .heading{
+    position: relative;
+    margin-left: 300px;
+    border-bottom: 0px;
+    color: #f49caa;
+    /* top: 30px; */
+}
+.footer1 .fas{
+    color: gray;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+.footer2{
+    display: flex;
+    background-color: black;
+    color: gray;
+}
+.footer2 .heading{
+    border-bottom: 0px;
+    font-size: 15px;
+    color: white;
+}
+.popular{
+    width: 20%;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+.i1{
+    margin-left: 75px;
+    margin-top: 5px;
+}
+.fas span{
     font-weight: bold;
 }
