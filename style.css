@@ -7,6 +7,8 @@
     width: 80%;
     margin-left: 10%;
     height: auto;
+    /* border: 1px solid gray;
+    border-radius: 10px; */
 }
 .sub-header{
     height: 6vh;
@@ -45,7 +47,8 @@
     height: 15vh;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
 }
 .search-header .icon{
     font-size: 35px;
@@ -60,9 +63,10 @@
     border-radius: 5px;
 }
 input {
-    width: 95%;
-    border: none;
+    width: 100%;
+    border: 0px solid red;
     padding-left: 20px;
+    height: 36px;
 }
 .search-logo{
     display: flex;
@@ -142,16 +146,23 @@ input {
     margin-left: 60px;
     margin-top:13px ;
 }
-.heading{
+.container .heading1{
     display: flex;
-    width:74.5 ;
-    /* float: right; */
+    width:74.5% ;
+    
     margin-left: 25.5%;
     margin-top: 50px;
     font-size: 20px;
     font-weight: bold;
     border-bottom: 1px solid gray;
-    /* offset: 1px solid red; */
+    
+}
+.heading1 .new{
+    position: relative;
+    left: -230px;
+    width: 200px;
+    border-bottom: 0px;
+
 }
 .item-box2{
     width: 74.5%;
@@ -204,6 +215,8 @@ input {
     margin-bottom: 50px;
     border-bottom: 1px solid gray;
     padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -265,7 +278,8 @@ input {
     margin-left: 25.5%;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 30px;
+    column-gap: 30px;
+    row-gap: -20px;
     height: auto;
     
 }
@@ -273,6 +287,8 @@ input {
     margin-left: 25.5%;
     margin-top: 40px;
     border-bottom: 1px solid gray;
+    font-size: 20px;
+    font-weight: bold;
 }
 .item-box-new .item{
     border: 1px solid gray;
@@ -316,17 +332,21 @@ input {
     /* background-color: antiquewhite; */
     margin-left: 10%;
     display: flex;
-    margin-top: 60px;
+    margin-top: -60px;
 }
 .testinomial .alan{
     width: 30%;
     margin-top: 130px;
 }
+.testinomial .heading{
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
 .testinomial .content{
     height: 50vh;
     width: 100%;
     border: 1px solid gray;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
@@ -382,7 +402,7 @@ input {
     
 }
 .content2 .head{
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: bold;
     color: gray;
     margin-left: 20%;
@@ -446,13 +466,12 @@ input {
 .alan .heading{
     margin-left: 10px;
 }
-.heading1{
-    width: 20%;
-    height: 50px;
-    border-bottom: 1px solid gray;
-    color: gray;
-    /* margin-right: 0px; */
-    float: right;
+
+.content .heading{
+    margin-top: 0px; 
+    bottom: 1px solid gray;
+     width: 100%; 
+    margin-left: -2px;
 }
 .last-box{
     display: flex;
@@ -494,35 +513,62 @@ input {
 
 .footer1 .heading{
     position: relative;
-    margin-left: 300px;
+    margin-left: 170px;
     border-bottom: 0px;
     color: #f49caa;
     /* top: 30px; */
 }
 .footer1 .fas{
     color: gray;
-    margin-top: 10px;
-    margin-left: 300px;
+    margin-top: 10px;    
+    margin-left: 170px;
 }
 .footer2{
     display: flex;
     background-color: black;
     color: gray;
+    border-bottom: 1px solid gray;
+    height: 35vh;
+    
 }
 .footer2 .heading{
     border-bottom: 0px;
     font-size: 15px;
     color: white;
+    margin-left: 70px;
 }
 .popular{
     width: 20%;
-    margin-left: 5px;
-    margin-top: 50px;
+    margin-left: -50px;
+    /* margin-top: 50px; */
 }
 .i1{
-    margin-left: 75px;
+    margin-left: 70px;
     margin-top: 5px;
 }
 .fas span{
     font-weight: bold;
+}
+.footer3{
+    height: 15vh;
+    background-color: black;
+
+}
+.footer3 img{
+    margin-left: 38%;
+    margin-top: 25px;
+}
+.copy{
+    color: gray;
+    margin-left: 38%;
+    margin-top: 10px;
+}
+.sidebar{
+    height: auto;
+    width: 20%;
+    background-color: #f49caa;
+    /* position: fixed; */
+    /* z-index: 100; */
+    /* position: sticky; */
+   /* margin-top: 10x; */
 }
